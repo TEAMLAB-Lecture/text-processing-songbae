@@ -70,7 +70,3 @@ def no_vowels(input_string):
             temp+=" "
         else: temp+=i
     return temp
-
-    
-print(no_vowels('this is an example'))
-print(normalize('this is an    EcxamPle            '))
