@@ -31,7 +31,8 @@ def normalize(input_string):
              'this is an example.'
              >>> input_string2 = "   EXTRA   SPACE   "
              >>> tp.normalize(input_string2)
-             'extra spac'
+             'extra spac
+            '
     """
     temp=input_string.lower()
     temp=temp.strip()
