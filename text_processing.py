@@ -68,6 +68,8 @@ def no_vowels(input_string):
     temp=str()
     for i in input_string:
         if i=='a' or i=='e'or i=='i' or i=='o' or i=='u':
-            temp+=" "
+            temp+=""
         else: temp+=i
     return temp
+
+print(no_vowels('This is an example'))
